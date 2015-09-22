@@ -1,0 +1,45 @@
+*{
+	box-size: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+h2, p{
+	color: #264470;
+}
+
+.site{
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 35px;
+}
+.imgcarousel{
+	margin: 0 auto;
+	float: none;
+	display: block;
+	width: 100%;
+}
+
+#myCarousel.carousel.slide{
+	width: 100%;
+}
+
+.carousel .item>img {
+	width: 100%;
+	height: auto;
+}
+
+.topo{
+	background-color: #FFFFFF;
+}
+
+.rodape{
+	background-color: #000000;
+	text-align: center;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
